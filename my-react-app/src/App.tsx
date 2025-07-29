@@ -9,7 +9,8 @@ function App() {
   useEffect(() => {
     axiosInstance.get('/api/hello')
       .then(response => {
-        setMessage(response.data.message)
+        console.log(response.data);
+        setMessage(response.data)
       })
       .catch(error => {
         console.error('Error fetching message:', error)

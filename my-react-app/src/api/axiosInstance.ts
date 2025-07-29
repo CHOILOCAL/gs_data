@@ -14,7 +14,7 @@ const axiosInstance = axios.create({
 
 axiosInstance.interceptors.request.use(
   config => {
-        console.log(config);
+        // console.log(config);
     // 요청이 보내지기 전에 수행할 작업 (예: 인증 토큰 동적으로 추가)
     // const token = localStorage.getItem('accessToken'); // 예시: 로컬 스토리지에서 토큰 가져오기
     // if (token) {
