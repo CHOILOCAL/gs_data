@@ -21,8 +21,11 @@ function App() {
     <>
     <div className="App">
       <header className="App-header">
-        <h1>API Test FE {message}</h1>
+        {/* <h1>API Test FE {message}</h1> */}
         {/* <p>{message}</p> */}
+        { 'Kakao OAuth 2.0'}
+        { 'BE Axios' }
+        { }
       </header>
     </div>
     </>
